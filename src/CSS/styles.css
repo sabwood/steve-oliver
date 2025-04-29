@@ -176,14 +176,28 @@ h3 {
     background-color: #0078d4;
 }
 
+.collapsible {
+    user-select: none;
+}
+
 .question {
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 40px;
     background-color: #aa1339;
     color: #fff;
+    margin-bottom: 40px;
+}
+
+.question::-webkit-details-marker {
+    display: none;
 }
 
 .answer {
     color: #89102f;
     font-size: 18px;
+    margin-bottom: 40px;
 }
 
 #contact-container {
