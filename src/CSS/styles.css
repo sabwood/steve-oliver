@@ -390,8 +390,13 @@ h4 {
     text-align: center;
 }
 
-.merch-image {
+.shirt-image {
     width: 200px;
     height: auto;
     border-radius: 50%;
+}
+
+#sign-image {
+    width: 250px;
+    height: auto;
 }
