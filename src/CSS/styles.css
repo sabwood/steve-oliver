@@ -180,8 +180,9 @@ h4 {
 }
 
 .fb__logo {
-    width: 25px;
+    width: 30px;
     height: auto;
+    padding-bottom: 10px;
 }
 
 #about__pic {
